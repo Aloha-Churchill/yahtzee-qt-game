@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ViewScoreSheet</class>
+ <widget class="QDialog" name="ViewScoreSheet">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QCheckBox" name="ones_check">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>50</y>
+     <width>72</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Ones</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="twos_check">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>50</y>
+     <width>72</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Twos</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="threes_check">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>50</y>
+     <width>72</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Threes</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="fours_check">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>100</y>
+     <width>72</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Fours</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="fives_check">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>100</y>
+     <width>72</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Fives</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="sixes_check">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>100</y>
+     <width>72</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Sixes</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="ones_check_7">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>160</y>
+     <width>72</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Twos</string>
+   </property>
+  </widget>
+  <widget class="Line" name="line">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>140</y>
+     <width>381</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="ones_check_8">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>160</y>
+     <width>72</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Twos</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="ones_check_9">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>220</y>
+     <width>72</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Twos</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="ones_check_10">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>220</y>
+     <width>72</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Twos</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="ones_label">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>70</y>
+     <width>47</width>
+     <height>14</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Score: 0</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="twos_label">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>70</y>
+     <width>47</width>
+     <height>14</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Score: 0</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="threes_label">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>70</y>
+     <width>47</width>
+     <height>14</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Score: 0</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="fours_label">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>120</y>
+     <width>47</width>
+     <height>14</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Score: 0</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="fives_label">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>120</y>
+     <width>47</width>
+     <height>14</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Score: 0</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="sixes_label">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>120</y>
+     <width>47</width>
+     <height>14</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Score: 0</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_7">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>180</y>
+     <width>47</width>
+     <height>14</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_8">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>180</y>
+     <width>47</width>
+     <height>14</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_9">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>240</y>
+     <width>47</width>
+     <height>14</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_10">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>240</y>
+     <width>47</width>
+     <height>14</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_11">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>180</y>
+     <width>101</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Total Score</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_12">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>210</y>
+     <width>21</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>0</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="title_label_score_sheet">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>0</y>
+     <width>201</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Playbill</family>
+     <pointsize>36</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Score Sheet</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
